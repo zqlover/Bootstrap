@@ -1,0 +1,204 @@
+/*顶部图片*/
+.top img{
+    margin: 10px auto;height: 100px;
+}
+
+/*轮播图*/
+.lunbotu{
+
+
+}
+.lunbotu .zuoyouming p{
+    font-size: 20px;
+    color: rgb(124,124,124);
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+/*标题*/
+.title{
+
+}
+.title h2{
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.title h2 a{
+    text-decoration: none;
+    color: orange;
+}
+.title h2 a:hover{
+   text-decoration:underline;
+}
+.title p{
+    line-height: 5px;
+    font-size: 16px;
+    color: #737373;
+    padding-left: 20px;
+}
+/*虚线*/
+.thing{
+    border: solid 1px white;
+    margin-bottom:0px;
+}
+
+/*内容*/
+.content .title1{
+    padding: 0 0;
+    margin: 20px;
+}
+.content .title1 p{
+    padding: 10px 0;
+    color: white;
+    font-size: 25px;
+    background: red;
+}
+
+.content .tab1 img{
+    width: 90%;
+    height: 180px;
+}
+.content .tab1 h4{
+    padding-top: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+.content .tab1 span{
+    font-family: "High Tower Text";
+}
+.content .tab1 .col-md-3 p{
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.content .tab1 a{
+    color: orange;
+}
+.content .col-md-3 img:hover{
+    box-shadow: 2px 2px 10px orange;
+}
+
+/*底部联系我*/
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.7);
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+#contact{
+    margin-top: 50px;
+    background: url("../images/index/contact.png") no-repeat;
+    background-size:cover ;
+    color: #d5d5d5;
+
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 40px;
+}
+#contact textarea .form-control{
+    height: auto;
+}
+#contact button{
+    background: green;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+#contact button:hover{
+    background: white;
+    color: green;
+    font-weight: bold;
+}
+
+/*回忆板块*/
+.recall img{
+    border: 3px solid white;
+    margin: 5px auto;
+}
+.content .recall img:hover{
+    border: 3px solid orange;
+    box-shadow: 2px 2px 10px orange;
+}
+
+/*学习文章板块*/
+.study_title1{
+    text-align: center;
+    height: 86px;
+    width: 86px;
+    background: url('../images/index/study_title1_1.png') no-repeat;
+    margin: 30px 0;
+}
+.study_title1:hover{
+    background: url('../images/index/study_title1_2.png') no-repeat;
+}
+.study_title2{
+    text-align: center;
+    height: 86px;
+    width: 86px;
+    background: url('../images/index/study_title2_1.png') no-repeat;
+    margin: 30px 0;
+}
+.study_title2:hover{
+    background: url('../images/index/study_title2_2.png') no-repeat;
+}
+.study_title3{
+    text-align: center;
+    height: 86px;
+    width: 86px;
+    background: url('../images/index/study_title3_1.png') no-repeat;
+    margin: 30px 0;
+}
+.study_title3:hover{
+    background: url('../images/index/study_title3_2.png') no-repeat;
+}
+.study_content{
+    margin: 10px 0;
+    color: #5b5b5b;
+}
+.study_content a{
+    color: #5b5b5b;
+    text-decoration: none;
+}
+.study_content a:hover{
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+
+/*底部版权*/
+.foot{
+    margin: 0;
+    text-align: center;
+    color: #b7b7b7;
+    height: 50px;
+    width: 100%;
+    background-color: #343434;
+    border-top: 1px solid white;
+}
+.foot p{
+    line-height: 40px;
+}

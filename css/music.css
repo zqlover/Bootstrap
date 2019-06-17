@@ -1,0 +1,105 @@
+
+
+body{
+    background:url("../images/life/bg.jpg")repeat ;
+    position: relative;
+}
+
+/*ÂÖ²¥*/
+#myCarousel .carousel-inner .item h3{
+    font-weight: bold;
+
+}
+#myCarousel .carousel-inner .item  p{
+    font-weight: bold;
+
+}
+
+/*Í¼Æ¬*/
+.content .singer img{
+    border-radius: 50%;
+    border: 3px solid #9d9d9d;
+   margin: 10px auto;
+}
+.content .singer img:hover{
+    border: 3px solid orange;
+}
+.content .singer h2{
+    margin: 50px;
+    font-weight: bold;
+    color: #818181;
+}
+.content .singer h4{
+    color: #757575;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.content .singer h4 a{
+    color:  #757575;
+    text-decoration: none;
+}
+.content .singer h4 a:hover{
+    color: orange;
+}
+.content .singer p{
+    color: #757575;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.content .singer .col-md-4{
+    border: 1px solid white;
+}
+.content .singer .col-md-4:hover{
+    border: solid 1px #ffffff;
+    box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.25);
+}
+
+/*±êÇ©Ò³*/
+.biaoqianye h2{
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+    color: #818181;
+}
+.biaoqianye #myTab a{
+    font-weight: bold;
+}
+.biaoqianye #myTabContent .row{
+    margin-top: 20px;
+}
+.biaoqianye #myTabContent .row img{
+    border: 3px solid #9d9d9d;
+    margin: 0px auto;
+}
+.biaoqianye #myTabContent .row p{
+    line-height: 25px;
+    margin: 10px;
+    text-align: center;
+    color: #7f7f7f;
+}
+.biaoqianye #myTabContent .row p span{
+    font-weight: bold;
+}
+/*²Î¿¼±êÌâ*/
+.list-group .list-group-item img{
+    display: inline-block;
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid #999999;
+}
+.list-group .list-group-item img:hover{
+    border: 5px solid #40ff33;
+}
+.list-group .list-group-item a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+.list-group .list-group-item a:hover{
+    color:  #40ff33;
+}
+
+

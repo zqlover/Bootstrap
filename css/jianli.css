@@ -1,0 +1,54 @@
+
+/*内容*/
+.content .name{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/*右侧介绍*/
+.jiesao{
+    color: #00a0e9;
+}
+.jiesao h2{
+    text-align: center;
+    color: #00a0e9;
+    margin-bottom: 30px;
+}
+.jiesao h3{
+    padding: 10px;
+}
+.jiesao p{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+
+
+
+/*标签*/
+.biaoqian .btn-default{
+    border: 0.5px solid;
+    border-radius: 0;
+    background-color: #73bcf9;
+    color: white;
+    margin: 2px 2px;
+}
+.biaoqian .btn-default:hover{
+    background-color: white;
+    color: #73bcf9;
+}
+/*联系我的按钮*/
+.panel-warning .btn{
+    border: 0.5px solid;
+    border-radius: 0;
+    background-color: #f9b72a;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+.panel-warning .btn:hover{
+    background-color: white;
+    color: #f9b72a;
+}

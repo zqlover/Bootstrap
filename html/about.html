@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>曾强的个人网站-关于网页</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!--返回顶部-->
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../texiao/js/jquery.goup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 100,
+                locationOffset: 50,
+                title: '返回顶部',
+                titleAsText: true
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!--头部导航栏-->
+<div class="head">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="logo"><img CLASS="img-responsive" src="../images/index/logo.png"
+                                          alt="曾强的个人主页"
+                            ></li>
+                    <li><a href="../index.html"><span
+                            class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="../html/jianli.html">
+                            <span class="glyphicon glyphicon-list-alt"></span> 简历 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../html/jianli.html">我的简历</a></li>
+                            <li><a href="../study/study_honor.html">我的荣誉</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="grow.html"><span class="glyphicon glyphicon-flag"></span> 成长</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-book"></span> 学习 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../study/study_html.html">Html5</a></li>
+                            <li><a href="../study/study_java.html">Java</a></li>
+                            <li><a href="../study/study_python.html">Python</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../study/study_other.html">其他</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><span class="glyphicon glyphicon-camera"></span> 生活</a></li>
+                    <li><a href="music.html"><span class="glyphicon glyphicon-music"></span> 爱音乐</a></li>
+                    <li><a href="liuyan.html"><span class="glyphicon glyphicon-comment"></span> 留言</a></li>
+                    <li><a style="color: orange;font-weight: bold;font-size: 25px" href="about.html"><span class="glyphicon glyphicon-tag"></span> 关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--内容-->
+<div class="container content panel panel-default">
+    <div class="panel-body">
+        <!--标题-->
+        <div class="title">
+            <h2>关于/About this site</h2>
+            <p>Record the beginning, the end, and all the things worth recording in life.</p>
+        </div>
+        <hr class="hr">
+        <!--生活板块--分为四列-->
+                <div class="row">
+                    <div class="col-xs-3" id="myScrollspy">
+                        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                            <li><a href="#section1">1.关于网页</a></li>
+                            <li><a href="#section2">2.参考网站</a></li>
+                            <li><a href="#section3">3.联系我吧</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-9" id="section1">
+                        <div class="panel panel-default" >
+                            <div class="panel-heading">
+                                <h2 class="panel-title" >
+                                    关于网页
+                                </h2>
+                            </div>
+                            <div class="panel-body">
+                                <P>网页所用技术:此网页是本人学习前端技术练习的个人网站，主要运用了html5、bootstrap框架等网页开发技术。仅用于学习所用。
+                                </P>
+                                <p>   设计目的：对自己所学知识的运用练习，同时记录生活的点滴！不涉及任何经济利益。</P>
+                                <p>   完成耗时：3天。</P>
+                                <P>网页内容：音乐页面内容及图片，源自酷我音乐，网易云音乐官网，若有侵权，请联系删除。其余均为自行设计，修改。</P>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2 class="panel-title" id="section2">
+                                    参考网站
+                                </h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseOne">
+                                                    <img src="../images/music/beyond1.jpg" class="img-responsive">
+                                                    张兵--个人网站（http://www.zbboke.com/）
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <img src="../images/about/about1.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseTwo">
+                                                    <img src="../images/music/xue.jpg" class="img-responsive">
+                                                    白小平的个人博客（http://www.baixiaoping.com/）
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <img src="../images/about/about2.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseThree">
+                                                    <img src="../images/music/song.jpg" class="img-responsive">
+                                                    李洋个人博客（https://www.talklee.com/）
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <img src="../images/about/about3.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2 class="panel-title" id="section3">
+                                    联系我吧
+                                </h2>
+                            </div>
+                            <div class="panel-body">
+                                <p>地址：重庆文理学院</p>
+
+                                <p>邮编：1234567</p>
+
+                                <p>电话：17784476955</p>
+
+                                <p>QQ：2463389230</p>
+                                <p>学习交流QQ群:940044961（网页代码都在群里）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<footer id="footer">
+    <div class="container">
+        <p>
+            Copyright ©2018-2019 Mr.Zeng http://zqlover.club
+        </p>
+        <p>All Rights Reserved | Yu ICP 888888 | Technical support:
+            bootstrap framework technology
+        </p>
+    </div>
+
+</footer>
+</body>
+</html>

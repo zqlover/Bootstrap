@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <title>曾强的个人网站-学习-Html</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/study.css">
+    <!--返回顶部-->
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../texiao/js/jquery.goup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 100,
+                locationOffset: 50,
+                title: '返回顶部',
+                titleAsText: true
+            });
+        });
+    </script>
+</head>
+<body>
+<!--头部导航栏-->
+<div class="head">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="logo"><img CLASS="img-responsive" src="../images/index/logo.png"
+                                          alt="曾强的个人主页"
+                            ></li>
+                    <li><a href="../index.html"><span
+                            class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="../html/jianli.html">
+                            <span class="glyphicon glyphicon-list-alt"></span> 简历 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../html/jianli.html">我的简历</a></li>
+                            <li><a href="../study/study_honor.html">我的荣誉</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../html/grow.html"><span class="glyphicon glyphicon-flag"></span> 成长</a></li>
+                    <li class="dropdown">
+                        <a style="color: orange;font-weight: bold;font-size: 25px" class="dropdown-toggle"
+                           data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-book"></span> 学习 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="study_html.html">Html5</a></li>
+                            <li><a href="study_java.html">Java</a></li>
+                            <li><a href="study_python.html">Python</a></li>
+                            <li class="divider"></li>
+                            <li><a href="study_other.html">其他</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="../html/life.html"><span class="glyphicon glyphicon-camera"></span> 生活</a></li>
+                    <li><a href="../html/music.html"><span class="glyphicon glyphicon-music"></span> 爱音乐</a></li>
+                    <li><a href="../html/liuyan.html"><span class="glyphicon glyphicon-comment"></span> 留言</a></li>
+                    <li><a href="../html/about.html"><span class="glyphicon glyphicon-tag"></span> 关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--内容-->
+<div>
+    <div class="container html5">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span>Html5</span>
+                        <ul class="breadcrumb text-right">
+                            <li><a href="../index.html">首页</a></li>
+                            <li><a href="../study/study_html.html">学习</a></li>
+                            <li class="active">Html5</li>
+                        </ul>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="row" style="border-top:none">
+                            <div class="col-md-3">
+                                <a href="../study/article/html_article1.html" ><img src="../images/study_article/github.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <h4><a href="../study/article/html_article1.html"> 基于GitHub建立自己博客网站</a></h4>
+
+                                <p>
+                                    这篇文章主要是如何使用Github提供的免费仓库搭建自己的小网站，同时免备案绑定自己的域名进行访问。
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html2.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4>
+                                    <a href="#">还有谁？能把这段字写整齐了？</a>
+                                </h4>
+
+                                <p>
+                                    厂下广卞廿士十一卉半与本二上旦上二本与半卉一十士廿卞广下厂下广卞廿士十一卉半与本二上旦上二本与半卉一十士廿卞广下厂下广卞廿士十一卉半与本二上旦上二本与半卉一十士廿...
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html3.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4>
+                                    <a href="#">今天分享一个验证码代码，不用谢我!</a>
+                                </h4>
+
+                                <p>
+                                    分享一个验证码，不用谢！ !DOCTYPE html html head meta charset=UTF-8 titleDocument/title /head
+                                    body canvas id=canvas width=150 height=50/canvas script function randomNum(min,max){
+                                    return Math.floor(Math.random()*(max-min)+min); }...
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html4.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4>
+                                    <a href="#">初学者：XHTML常用标签的基本应用指南</a>
+                                </h4>
+
+                                <p>
+                                    一段时间以来，发现有很多人XHTML都不会用，不光是普通的初学者，有的程序员都不是很清楚该怎么写这个XHTML，我这里呢算是把一些常见的应用问题做一个总结，也算能使得大家能在沟通，合作上能形成默契。
+                                    XHTML里有很多的标签，但是经常用到的也就是那么...
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html5.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4>
+                                    <a href="#">网页中应用表格爱好者</a>
+                                </h4>
+
+                                <p>
+                                    你认为已经知道怎么制做表格了吧。当然，你已经了解
+                                    table、tr、td和th标签了，甚至还在你的口袋里装入了rowspan和colspan。你确实可以制做一个精美小巧的咖啡色三合板桌子（表格），但难道你不想做一个优雅稳固，上面有玻璃的，足以承受一头大笨象的宴会桌（...
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html6.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4><a href="#">实例学习网页制作中常用的网页表单的应用</a>
+                                </h4>
+
+                                <p>
+                                    说实话，无论是asp,php还是jsp进行网络编程的时候，都离不开和用户的交互。而人机对话的平台，基本上是靠相应的文本、列表框进行输入，然后通过按钮提交送至数据库的。所以学习网络编程就一定要了解这些输入平台相关的东西：表单（form）其基本格式如下：...
+                                </p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/study/html/html7.gif" class="img-responsive">
+                            </div>
+                            <div class="col-md-9">
+                                <h4><a href="#">快速精通网页框架FRAME</a>
+                                </h4>
+
+                                <p>FRAME（框架）是Web上经常会看到的页面结构。使用可视Web开发工具（比如Dreamweaver或者Frontpage），虽然可以在
+                                    WYSIWYG环境中通过简单的鼠标托拽完成FRAME的构建，但是要实现真正细致甚至强大的功能，仔细理解FRAME的代码结构至关重要！你将发现，
+                                    FRAME原...</p>
+                                <span class="glyphicon glyphicon-user">曾强</span>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="pager">
+                    <li><a href="#">共1页/第1页</a></li>
+                    <li><a href="#">下一页</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 html_right">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span>热门推荐</span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row" style="border-top: none">
+                            <div class="col-md-4">
+                                <img src="../images/study/html/html6.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4><a href="#">实例学习网页制作中常用的网页表单的应用</a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">999次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/html/html5.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <a href="#">网页中应用表格爱好者</a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">998次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/java/java2.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <a href="#">
+                                        什么是变量,数据类型有哪些？
+                                    </a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">888次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/java/java3.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <a href="#">
+                                        运算符的作用以及用法的笔记
+                                    </a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">666次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/python/python4.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <a href="#">还在一个个写规则？来了解下爬虫的智能化解析吧！</a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">600次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/python/python5.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <a href="#">Python中logging模块的基本用法</a>
+                                </h4>
+
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">555次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/other/other6.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4><a href="#">永恒设计：优秀设计的 10 个标准</a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../images/study/other/other7.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h4><a href="#">一杯咖啡+水+巧克力=？</a>
+                                </h4>
+                                <span class="glyphicon glyphicon-time">2019-6-7</span>
+                                <span class="glyphicon glyphicon-eye-open">1次浏览</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="panel panel-success biaoqian">
+                    <div class="panel-heading">
+                        <span>&nbsp; 标签&nbsp; </span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="content tag-cloud">
+                            <button type="button" class="btn btn-default" style="font-size:8px">Android</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">html</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">css</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">js</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">boostrap</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">mvc</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">struts</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">Spring</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">java</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">c#</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">c++</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">python</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">华为</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">小米</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">联想</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">ps</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">os</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">jsp</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">三星</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">苹果</button>
+                            <button type="button" class="btn btn-default" style="font-size:8px">...</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <span>&nbsp; 分享&nbsp; </span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="bshare-custom icon-medium-plus"><a title="分享到QQ空间" class="bshare-qzone"></a><a
+                                title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网"
+                                                                                   class="bshare-renren"></a><a
+                                title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a
+                                title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span
+                                class="BSHARE_COUNT bshare-share-count">0</span></div>
+                        <script type="text/javascript" charset="utf-8"
+                                src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=1&amp;lang=zh"></script>
+                        <script type="text/javascript" charset="utf-8"
+                                src="http://static.bshare.cn/b/bshareC0.js"></script>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer id="footer">
+    <div class="container">
+
+
+        <p>
+            Copyright ©2018-2019 Mr.Zeng http://zqlover.club
+        </p>
+
+        <p>All Rights Reserved | Yu ICP 888888 | Technical support:
+            bootstrap framework technology
+        </p>
+    </div>
+
+</footer>
+</body>
+</html>

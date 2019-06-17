@@ -1,0 +1,77 @@
+
+body{
+    background:url("../images/life/bg.jpg")repeat ;
+    position: relative;
+}
+
+/*Ò³ÃæÄÚÈÝ±ß¿ò*/
+.content{
+    margin-top:0;
+}
+
+/*±êÌâ*/
+.title{
+    margin-top: -30px;
+}
+.title h2{
+    font-weight: bold;
+    color: orange;
+    padding-top: 40px;
+}
+.title p{
+    line-height: 5px;
+    font-size: 16px;
+    color: #737373;
+    padding-bottom: 30px;
+}
+/*ÐéÏß*/
+.thing{
+    border: solid 1px white;
+    margin-bottom: 20px;
+}
+.thing:hover{
+    border: solid 1px #ffffff;
+    box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.25);
+}
+.content .hr{
+    border: 0.5px dashed #c2c2c2;
+}
+
+/*ÕÕÆ¬°å¿é*/
+.content .thing img{
+    border: solid 5px #e7e7e7;
+}
+.content .thing h3{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px ;
+    padding-left: 5px;
+}
+.content .thing time{
+    font-family: "High Tower Text";
+font-size: 16px;
+    color: #adadad;
+    padding-left: 5px;
+}
+.content .thing p{
+    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.content .thing span{
+    color: #969696;
+    margin-right:5px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+.content .thing .view{
+    text-decoration: none;
+    float: right;
+    color: orange;
+    padding-right: 5px;
+
+}
+.content .thing .view:hover{
+    color: #40ff33;
+}

@@ -1,0 +1,310 @@
+
+/*home*/
+#home{
+    margin-top: -20px;
+    background:url('../images/study/honor/bg6.jpg');
+    background-size:cover ;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+#home p{
+    font-weight: bold;
+    line-height: 10px;
+    margin-top: 35px;
+}
+#home img{
+    margin-top: 60px;
+    display: inline-block;
+    height: 300px;
+}
+/*honor*/
+#honor{
+    padding: 70px 0;
+    text-align: center;
+}
+#honor img{
+    margin: 0 auto;
+    width: 400px;
+    height: 260px;
+}
+#honor h3{
+    font-weight: bold;
+}
+#honor p{
+    margin-top: 35px;
+}
+.col-md-4{
+    padding: 15px;
+}
+#honor .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+/*contact*/
+#contact{
+    background: url('../images/study/honor/bg6.jpg') no-repeat;
+    background-size:cover ;
+    color: #ffffff;
+
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+#contact p{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 40px;
+}
+#contact textarea .form-control{
+    height: auto;
+}
+#contact input[type=submit]{
+    background: green;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#contact input[type=submit]:hover{
+    background: white;
+    color: green;
+    font-weight: bold;
+}
+
+
+
+/*soft+words*/
+#soft{
+    background: #f8f8f8;
+    padding: 80px;
+}
+#soft h2{
+    font-weight: bold;
+    padding: 20px 0;
+}
+#soft p span{
+    background: green;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#soft p{
+    line-height: 20px;
+}
+
+/*words*/
+#words{
+    color: white;
+    background:url('../images/study/honor/bg9.jpg')no-repeat;
+    background-size: cover;
+}
+#words h2{
+    font-weight: bold;
+    padding: 20px 0;
+}
+#words p span{
+    background: green;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#words p{
+    line-height: 20px;
+}
+
+/*see*/
+#see{
+    color: white;
+    background: url('../images/study/honor/bg8.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#see h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.see{
+    background-color: white;
+}
+.more_btn{
+    font-weight: bold;
+    background: green;
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: 0.5s;
+}
+.more_btn:hover{
+    background:white;
+    color: green;
+}
+#see .col-md-3{
+    margin-bottom: 20px;
+}
+#see .see:hover{
+    background: #f1f1f1;
+    box-shadow: 2px 2px 6px #ccc;
+}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding: 60px 0;
+}
+#app p span{
+    background: green;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#app .btn{
+    margin: 20px 0;
+    background-color: green;
+    border-color:green ;
+    border-radius: 0;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+#app .btn:hover{
+    background-color: white;
+    color: green;
+}
+#app img{
+    padding-top: 40px;
+}
+
+/*call*/
+#call{
+    padding: 80px;
+    background: white;
+    text-align: left;
+    color: black;
+}
+#call h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+#call p{
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#call .form-control{
+    border: 1px solid green;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 40px;
+}
+#call textarea .form-control{
+    height: auto;
+}
+#call input[type=submit]{
+    background: green;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#call input[type=submit]:hover{
+    background: white;
+    color: green;
+    font-weight: bold;
+}
+
+/*footer*/
+footer{
+    background: url('../images/study/honor/bg2.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+footer img{
+    padding-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/*回到顶部样式*/
+.btn_top,.btn_top a{
+    width:69px;
+    height:30px;
+    overflow:hidden;
+}
+.btn_top{
+    position:fixed;
+    _position:absolute;
+    right:0px;
+    bottom:30px;
+    left:auto;
+    display:inline-block;
+    text-indent:-9999px;
+    overflow:hidden;
+    cursor:pointer;
+}
+.btn_top a{
+    display:block;
+    background:url('../images/study/honor/return-top1.png') 0 0 no-repeat;
+}
+
+.btn_top a:hover{
+    display:block;
+    background:url('../images/study/honor/return-top2.png') -1px -1px no-repeat;
+}
+
+/*返回按钮*/
+nav .return a{
+    text-decoration: none;
+}
+nav .return{
+    border-radius:0;
+    background: black;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
+nav .return:hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+}

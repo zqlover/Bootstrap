@@ -1,0 +1,40 @@
+/*通用头部导航*/
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.head .logo img{
+    padding: 0 0;
+    height: 60px;
+    width: 120px;
+    margin-top: 10px;
+}
+.head .index{
+    color: orange;
+    font-weight: bold;
+}
+.head .navbar-left li{
+    margin-left: 15px;
+}
+.head .navbar-left .active a{
+    color: orange;
+    font-weight: bold;
+}
+.head .navbar-left li a{
+    line-height: 50px;
+    font-size: 20px;
+    color: #3882e4;
+}
+.head .navbar-left li a:hover{
+    color: orange;
+}
+
+
+/*底部版权*/
+#footer {
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+}

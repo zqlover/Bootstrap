@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>曾强的个人网站-留言吧</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!--返回顶部-->
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../texiao/js/jquery.goup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 100,
+                locationOffset: 50,
+                title: '返回顶部',
+                titleAsText: true
+            });
+        });
+    </script>
+    <style>
+        /*页面内容边框*/
+        .content{
+            margin-top:0;
+        }
+
+        /*标题*/
+        .title{
+            margin-top: -30px;
+        }
+        .title h2{
+            font-weight: bold;
+            color: orange;
+            padding-top: 40px;
+        }
+        .title p{
+            line-height: 5px;
+            font-size: 16px;
+            color: #737373;
+            padding-bottom: 30px;
+        }
+        /*虚线*/
+        .thing{
+            border: solid 1px white;
+            margin-bottom: 20px;
+        }
+        .thing:hover{
+            border: solid 1px #ffffff;
+
+            box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.25);
+        }
+        .content .hr{
+            border: 0.5px dashed #c2c2c2;
+        }
+        /*留言表单样式*/
+        /*表单样式*/
+        .dark-matter {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+            background: #555;
+            padding: 20px 30px 20px 30px;
+            font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #D3D3D3;
+            text-shadow: 1px 1px 1px #444;
+            border: none;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+        }
+        .dark-matter h1 {
+            padding: 0px 0px 10px 40px;
+            display: block;
+            border-bottom: 1px solid #444;
+            margin: -10px -30px 30px -30px;
+        }
+        .dark-matter h1>span {
+            display: block;
+            font-size: 11px;
+        }
+        .dark-matter label {
+            display: block;
+            margin: 0px 0px 5px;
+        }
+        .dark-matter label>span {
+            float: left;
+            width: 20%;
+            text-align: right;
+            padding-right: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
+            border: none;
+            color: #525252;
+            height: 25px;
+            line-height:15px;
+            margin-bottom: 16px;
+            margin-right: 6px;
+            margin-top: 2px;
+            outline: 0 none;
+            padding: 5px 0px 5px 5px;
+            width: 70%;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            background: #DFDFDF;
+        }
+        .dark-matter select {
+            background: #DFDFDF url('down-arrow.png') no-repeat right;
+            background: #DFDFDF url('down-arrow.png') no-repeat right;
+            appearance:none;
+            -webkit-appearance:none;
+            -moz-appearance: none;
+            text-indent: 0.01px;
+            text-overflow: '';
+            width: 70%;
+            height: 35px;
+            color: #525252;
+            line-height: 25px;
+        }
+        .dark-matter textarea{
+            height:100px;
+            padding: 5px 0px 0px 5px;
+            width: 70%;
+        }
+        .dark-matter .button {
+            background: #FFCC02;
+            border: none;
+            padding: 10px 25px 10px 25px;
+            color: #585858;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            text-shadow: 1px 1px 1px #FFE477;
+            font-weight: bold;
+            box-shadow: 1px 1px 1px #3D3D3D;
+            -webkit-box-shadow:1px 1px 1px #3D3D3D;
+            -moz-box-shadow:1px 1px 1px #3D3D3D;
+        }
+        .dark-matter .button:hover {
+            color: #333;
+            background-color: #EBEBEB;
+        }
+        label img{
+            display: inline-block;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--头部导航栏-->
+<div class="head">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="logo"><img CLASS="img-responsive" src="../images/index/logo.png"
+                                          alt="曾强的个人主页"
+                            ></li>
+                    <li><a href="../index.html"><span
+                            class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="../html/jianli.html">
+                            <span class="glyphicon glyphicon-list-alt"></span> 简历 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../html/jianli.html">我的简历</a></li>
+                            <li><a href="../study/study_honor.html">我的荣誉</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="grow.html"><span class="glyphicon glyphicon-flag"></span> 成长</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-book"></span> 学习 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../study/study_html.html">Html5</a></li>
+                            <li><a href="../study/study_java.html">Java</a></li>
+                            <li><a href="../study/study_python.html">Python</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../study/study_other.html">其他</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="life.html"><span class="glyphicon glyphicon-camera"></span> 生活</a></li>
+                    <li><a href="music.html"><span class="glyphicon glyphicon-music"></span> 爱音乐</a></li>
+                    <li><a style="color: orange;font-weight: bold;font-size: 25px" href="liuyan.html"><span class="glyphicon glyphicon-comment"></span> 留言</a></li>
+                    <li><a href="about.html"><span class="glyphicon glyphicon-tag"></span> 关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+<!--内容-->
+<div class="container">
+<div class=" content panel panel-default">
+    <div class="panel-body">
+        <!--标题-->
+        <div class="title">
+            <h2>留言/Leaving a message</h2>
+            <p>Every word you leave behind is my motivation for improvement.</p>
+        </div>
+        <hr class="hr">
+        <!--留言-->
+        <form action="" method="post" class="dark-matter">
+            <h1>Contact Form
+                <span>Please fill all the texts in the fields.</span>
+            </h1>
+            <label>
+                <span>您的姓名 :</span>
+                <input id="name" type="text" name="name" placeholder="Your Full Name" />
+            </label>
+            <label>
+                <span>您的邮箱 :</span>
+                <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+            </label>
+
+            <label>
+                <span>Message :</span>
+                <textarea id="message" name="message" placeholder="Your Message to Me"></textarea>
+            </label>
+            <label>
+                <span>网页设计评价 :</span><select name="selection">
+                <option value="">还可以</option>
+                <option value="">一般般</option>
+                <option value="">差</option>
+                <option value="">老差了（您再看看吧）</option>
+            </select>
+            </label>
+            <label>
+                <span>&nbsp;</span><img src="../images/about/footer.gif" class="img-responsive">
+                <input type="button" class="button" data-toggle="modal" data-target="#myModal" value="Send" />
+            </label>
+        </form>
+
+    </div>
+</div>
+</div>
+<!--模态框-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">提交成功</h4>
+            </div>
+            <div class="modal-body">感谢您的留言，祝您生活愉快！</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+
+<footer id="footer">
+    <div class="container">
+        <p>
+            Copyright ©2018-2019 Mr.Zeng http://zqlover.club
+        </p>
+        <p>All Rights Reserved | Yu ICP 888888 | Technical support:
+            bootstrap framework technology
+        </p>
+    </div>
+
+</footer>
+</body>
+</html>

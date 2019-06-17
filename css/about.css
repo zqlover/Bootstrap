@@ -1,0 +1,96 @@
+
+body{
+    background:url("../images/life/bg.jpg")repeat ;
+    position: relative;
+}
+/*附加导航*/
+ul.nav-tabs{
+    width: 200px;
+    margin-top:30px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+ul.nav-tabs li{
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+ul.nav-tabs li:first-child{
+    border-top: none;
+}
+ul.nav-tabs li a{
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+ul.nav-tabs li:first-child a{
+    border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a{
+    border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix{
+    top: 250px; /* Set the top position of pinned element */
+}
+
+/*页面内容边框*/
+.content{
+    margin-top:0;
+}
+
+/*标题*/
+.title{
+    margin-top: -30px;
+}
+.title h2{
+    font-weight: bold;
+    color: orange;
+    padding-top: 40px;
+}
+.title p{
+    line-height: 5px;
+    font-size: 16px;
+    color: #737373;
+    padding-bottom: 30px;
+}
+/*虚线*/
+.thing{
+    border: solid 1px white;
+    margin-bottom: 20px;
+}
+.thing:hover{
+    border: solid 1px #ffffff;
+
+    box-shadow: 2px 2px 8px 1px rgba(20, 20, 20, 0.25);
+}
+.content .hr{
+    border: 0.5px dashed #c2c2c2;
+}
+
+/*参考标题*/
+.panel-heading .panel-title{
+    font-weight: bold;
+}
+.panel-heading img{
+    display: inline-block;
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid #999999;
+}
+.panel-heading img:hover{
+    border: 5px solid #40ff33;
+}
+.panel-heading a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+.panel-heading a:hover{
+    color:  #40ff33;
+}

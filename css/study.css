@@ -1,0 +1,78 @@
+
+.panel-heading span{
+    color: #686868;
+    font-size: 20px;
+    font-weight: bold;
+}
+.panel-heading .breadcrumb{
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    display: inline-block;
+}
+
+
+/*html5*/
+.html5 .col-md-8 img{
+    width: 250px;
+    height: 120px;
+    border-radius:5%;
+}
+.html5 .col-md-4 img{
+    width: 100px;
+    height: 60px;
+    border-radius:5%;
+}
+
+.html5 .panel-body .row {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #cacaca;
+    border-left: 5px solid white ;
+}
+.html5 .panel-body .row:hover{
+    background: #fafff8;
+    border-left: 5px solid orange ;
+}
+.html5 .panel-body .row span{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #979797;
+}
+.html5 .panel-body .row h4 a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5c5c5c;
+    text-decoration: none;
+}
+.html5 .panel-body .row h4 a:hover{
+    color: orange;
+}
+.html5 .panel-body .row p{
+    font-size: 12px;
+    color: #898989;
+}
+.html5 .html_right .row img{
+    margin: 20px 0;
+}
+.html5 .html_right .row h4 a{
+    font-size: 14px;
+}
+/*±Í«©*/
+.html5 .biaoqian span{
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+
+}
+.biaoqian .btn-default{
+    border: 0.5px solid;
+    border-radius:50%;
+    background-color: #73bcf9;
+    color: white;
+    margin: 2px 2px;
+}
+.biaoqian .btn-default:hover{
+    background-color: white;
+    color: #73bcf9;
+}
+

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <title>曾强的个人网站-我的荣誉</title>
+
+    <link href="../texiao/css/default.css" rel="stylesheet" type="text/css">
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/honor.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+
+<!--右侧导航-->
+<script type="text/javascript" src="../texiao/js/jquery.js"></script>
+<div class="rightNav">
+    <a href="#home" style="right: -110px;"><em>0</em>Index</a>
+    <a href="#honor" style="right: -110px;"><em>1</em>Glory</a>
+    <a href="#soft" style="right: -110px;"><em>2</em>Soft</a>
+    <a href="#words" style="right: -110px;"><em>3</em>Scholarship</a>
+    <a href="#app" style="right: -110px;"><em>4</em>Contest</a>
+    <a href="#see" style="right: -110px;"><em>5</em>Other</a>
+    <a href="#call" style="right: -110px;"><em>6</em>call me</a>
+</div>
+
+<script type="text/javascript">
+    var btb=$(".rightNav");
+    var tempS;
+    $(".rightNav").hover(function(){
+        var thisObj = $(this);
+        tempS = setTimeout(function(){
+            thisObj.find("a").each(function(i){
+                var tA=$(this);
+                setTimeout(function(){ tA.animate({right:"0"},300);},50*i);
+            });
+        },200);
+
+    },function(){
+        if(tempS){ clearTimeout(tempS); }
+        $(this).find("a").each(function(i){
+            var tA=$(this);
+            setTimeout(function(){ tA.animate({right:"-110"},300,function(){
+            });},50*i);
+        });
+
+    });
+    var isIE6 = !!window.ActiveXObject&&!window.XMLHttpRequest;
+    if( isIE6 ){ $(window).scroll(function(){ btb.css("top", $(document).scrollTop()+100) }); }
+</script>
+
+
+<!--头部导航栏-->
+<div class="head">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="logo"><img CLASS="img-responsive" src="../images/index/logo.png"
+                                          alt="曾强的个人主页"
+                            ></li>
+                    <li><a href="../index.html"><span
+                            class="glyphicon glyphicon-home"></span> 首页</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" style="color: orange;font-weight: bold;font-size: 25px" href="../html/jianli.html">
+                            <span class="glyphicon glyphicon-list-alt"></span> 简历 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../html/jianli.html">我的简历</a></li>
+                            <li><a href="../study/study_honor.html">我的荣誉</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="../html/grow.html"><span class="glyphicon glyphicon-flag"></span> 成长</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-book"></span> 学习 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../study/study_html.html">Html5</a></li>
+                            <li><a href="../study/study_java.html">Java</a></li>
+                            <li><a href="../study/study_python.html">Python</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../study/study_other.html">其他</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../html/life.html"><span class="glyphicon glyphicon-camera"></span> 生活</a></li>
+                    <li><a href="../html/music.html"><span class="glyphicon glyphicon-music"></span> 爱音乐</a></li>
+                    <li><a href="../html/liuyan.html"><span class="glyphicon glyphicon-comment"></span> 留言</a></li>
+                    <li><a href="../html/about.html"><span class="glyphicon glyphicon-tag"></span> 关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<!--home-->
+<section id="home">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row wow fadeInDown">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>Here are my college achievements</h1>
+
+                    <h3>Mr. Zeng</h3>
+
+                    <p>My declaration: Stand up only once more than fall!</p>
+
+                    <img class="img-responsive" src="../images/study/honor/touxiang.jpg" alt="home1">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--rongyao-->
+<section id="honor">
+    <div CLASS="container">
+        <div class="row wow fadeInUp">
+            <h1 style="font-weight: bold;margin-top: 30px;margin-bottom: 35px;color: black;">My glory</h1>
+
+            <div class="col-md-4">
+                <img class="img-responsive" src="../images/study/honor/CET.jpg">
+
+                <h3>CET-4 certificate</h3>
+
+                <p>X-year X-month X-day </p>
+
+                <p>I will use English for basic communication and learning, as well as the correct understanding and use
+                    of English when writing code.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../images/study/honor/ruankao.jpg">
+
+                <h3>Software Designer</h3>
+
+                <p>X-year X-month X-day </p>
+
+                <p>I learned the basic knowledge and skills of software development by taking the Software Designer
+                    Certificate of Software Examination, and gained a better understanding and learning of software
+                    development.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../images/study/honor/NCRE.jpg">
+
+                <h3>Computer Level Examination</h3>
+
+                <p>X-year X-month X-day </p>
+
+                <p>I will use office software to handle all kinds of things, including word, Excel, PowerPoint.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow bounceInUp">
+                    <h2><span class="glyphicon glyphicon-send"></span>
+                        &nbsp;Contact me</h2>
+
+                    <form action="#" method="post">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="submit" class="form-control" value="Contact me immediately">
+                        </div>
+                    </form>
+                    <p>If you encounter any problems, please contact me immediately.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--soft-->
+<section id="soft">
+    <div class="container">
+        <div class="col-md-6 wow fadeInLeftBig">
+            <h2>intermediate:Software Designer</h2>
+
+            <p><span class="glyphicon glyphicon-grain"></span>This is a national examination under the leadership of the
+                Ministry of Human Resources and Social Security and the Ministry of Industry and Information Technology.
+                Its purpose is to scientifically and impartially test the professional qualification, professional
+                qualification and technical level of computer and software professionals throughout the country.</p>
+
+            <p><span class="glyphicon glyphicon-equalizer"></span>Major subjects: Algorithmic Design, Operating System,
+                Computer Network, Database Technology, Professional English, Software Engineering, etc.
+            </p>
+
+
+        </div>
+        <div class="col-md-6 wow fadeInRight">
+            <img src="../images/study/honor/engerniner.jpg" class="img-responsive">
+        </div>
+    </div>
+</section>
+
+<!--words-->
+
+<section id="words">
+    <div class="lvjing">
+        <div class="container">
+
+            <div class="col-md-6 wow zoomIn">
+                <img src="../images/study/honor/scholarship.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6 wow zoomIn">
+                <h2>Scholarship</h2>
+
+                <p>I won X scholarships in College</p>
+
+                <p><span class="glyphicon glyphicon-tasks"></span>On May X, 2018, he won the second-class scholarship.
+                </p>
+
+                <p><span class="glyphicon glyphicon-tasks"></span>On May X, 2019, he won the second-class scholarship.
+                </p>
+
+                <p><span class="glyphicon glyphicon-tasks"></span>On May X, 2019, he won the second-class scholarship.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--app-->
+<section id="app">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft">
+                <h2>Programming Contest</h2>
+
+                <p><span class="glyphicon glyphicon-ice-lolly"></span>In the university, I participated in many
+                    programming competitions to improve my programming ability, but also won some awards.</p>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-eye-open"></span>
+                    More
+                </button>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+                <img src="../images/study/honor/contest.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--see-->
+<section id="see">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <h2>Others</h2>
+
+                <div class="col-md-12">
+
+                    <div class="col-md-3  wow pulse">
+                        <div class="see">
+                            <img src="../images/study/honor/o1.jpg" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-3  wow pulse">
+                        <div class="see">
+                            <img src="../images/study/honor/o2.jpg" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-3  wow pulse">
+                        <div class="see">
+                            <img src="../images/study/honor/o3.jpg" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-3  wow pulse">
+                        <div class="see">
+                            <img src="../images/study/honor/o4.jpg" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-primary more_btn" role="button">More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact-->
+<section id="call">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft">
+                <h2><span class="glyphicon glyphicon-send"></span>
+                    &nbsp;Contact me</h2>
+
+                <p>I am knowledgeable, experienced, code coquettish, efficiency horror, c/c++, java, PHP are all
+                    proficient.
+                    Skilled in all kinds of frameworks, more than 20 years of hard training in the mountains, sleep only
+                    4 hours a day, seconds after the bug is notified by telephone
+                    Log on to vpn, locate the problem thousands of miles away, and restore the upper line
+                    instantaneously.
+                </p>
+                <address>
+                    <p>
+                        <span class="glyphicon glyphicon-home"></span>
+                        &nbsp; Address: Yongchuan District, Chongqing</p>
+
+                    <p><span class="glyphicon glyphicon-phone"></span>
+                        &nbsp; Tel: 17784476955</p>
+
+                    <p><span class="glyphicon glyphicon-envelope"></span>
+                        &nbsp; E-mail: 192850739@qq.com</p>
+                </address>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+                <form action="#" method="post">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="title">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" placeholder="content" rows="4"></textarea>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="submit" class="form-control" value="commit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <p>
+                        Copyright © 201758234156 Mr.Zeng All Rights Reserved | Yu ICP 888888 | Technical support:
+                        bootstrap framework technology
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--返回顶部-->
+<script src="../jQuery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../texiao/js/jquery.goup.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.goup({
+            trigger: 100,
+            bottomOffset: 100,
+            locationOffset: 50,
+            title: '返回顶部',
+            titleAsText: true
+        });
+    });
+</script>
+
+<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/animate.css"/>
+<!--页面滑动-->
+<script src="../bootstrap-3.3.7-dist/js/jquery.singlePageNav.min.js"></script>
+<!--出现动画效果-->
+<script src="../bootstrap-3.3.7-dist/js/wow.min.js"></script>
+
+<script>
+    $(function () {
+        $('.rightNav').singlePageNav({
+            offset: 70
+        });
+        $('.rightNav a').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+        new WOW().init();
+    })
+</script>
+
+
+
+
+</body>
+</html>
